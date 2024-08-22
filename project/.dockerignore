@@ -1,0 +1,14 @@
+env/
+.dockerignore
+Dockerfile
+Dockerfile.prod
+# Ignore Python cache files
+**/__pycache__
+*.pyc
+
+# Ignore other common files/directories you don't want in your Docker image
+.git
+.vscode
+*.log
+project/htmlcov/*
+.coveragerc
