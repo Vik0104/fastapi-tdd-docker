@@ -7,4 +7,4 @@ def test_ping(test_app):
 
     # Then
     assert response.status_code == 200
-    assert response.json() == {"ping": "pong!", "environment": "dev", "testing": 1}
+    assert response.json() == {"ping": "pong", "environment": "dev", "testing": 1}
